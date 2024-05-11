@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ostad clone</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css_files/NavBar.css">
+    <link rel="stylesheet" href="css_files/Base.css">
+    <link rel="stylesheet" href="css_files/section1.css">
+    <link rel="stylesheet" href="css_files/section2.css">
+    <link rel="stylesheet" href="css_files/section3.css">
+    <link rel="stylesheet" href="css_files/section4.css">
+    <link rel="stylesheet" href="css_files/section5.css">
+</head>
+<body>
+    <section id="content1"></section>
+    <section id="content2"></section>
+    <section id="content3"></section>
+    <section id="content4"></section>
+    <section id="content5"></section>
+    <section id="content6"></section>
+    <div style="height: 1005px;"></div>
+
+    
+    
+    <script>
+        fetch('components/NavBar.html')
+    .then(response => response.text())
+    .then(data => {
+         document.getElementById('content1').innerHTML = data;
+     });
+
+     fetch('components/section1.html')
+    .then(response => response.text())
+    .then(data => {
+         document.getElementById('content2').innerHTML = data;
+     });
+
+     fetch('components/section2.html')
+    .then(response => response.text())
+    .then(data => {
+         document.getElementById('content3').innerHTML = data;
+     });
+
+     fetch('components/section3.html')
+    .then(response => response.text())
+    .then(data => {
+         document.getElementById('content4').innerHTML = data;
+     });
+     fetch('components/section4.html')
+    .then(response => response.text())
+    .then(data => {
+         document.getElementById('content5').innerHTML = data;
+     });
+
+     fetch('components/section5.html')
+     .then(response => response.text())
+     .then(data => {
+          document.getElementById('content6').innerHTML = data;
+      });
+     </script>
+
+
+</body>
+</html>

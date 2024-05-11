@@ -1,0 +1,89 @@
+.section1{
+    width: 100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+}
+
+.section1-container{
+    margin-top: 40px;
+    width: 1118px;
+    height: 350px;
+    background: linear-gradient(to bottom right, rgba(129, 205, 129, 0.181),white, rgba(181, 229, 197, 0.2));
+    border-radius: 15px;
+    border: 1px solid rgba(0, 0, 0, 0.334);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section1-container .left-box,
+.section1-container .right-box{
+    width: 523px;
+    height: 302px;
+}
+.section1-container .right-box {
+    background-image:url('../images/section1.webp');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 18px;
+    margin-left: 20px;
+}
+
+
+.section1-container .left-box .header1 p{
+    display: inline-block;
+    font-size: 36px;
+    line-height: 130%;
+    font-weight: 700;
+}
+.section1-container .left-box .header1 .red{color: #f04438;margin-left: 10px;}
+.section1-container .left-box .header1 .circle{
+    border-radius: 100%;
+     margin-left: 10px;
+     display: inline-block;
+     height: 25px;
+     width: 25px;
+     background-color: red;
+}
+
+/*----------------- adding animaition --------------------- */
+@keyframes pulse {
+    0% {
+      transform: scale(0.2);
+    }
+    100% {
+      transform: scale(1.3);
+    }
+  }
+  
+  .section1-container .left-box .header1 .circle {
+    animation: pulse 1s infinite alternate ease-in-out;
+  }
+
+/*----------------- adding animaition --------------------- */
+
+.section1-container .left-box .header2{
+    font-size: 1rem;
+    line-height: 2rem;
+    letter-spacing: .32px;
+    font-weight: 600;
+}
+
+.section1-container .left-box .header-button{
+    margin-top: 20px;
+    margin-bottom: 40px;
+    display: flex;
+    background-color: #ffcd33;
+    height: 24px;
+    width: 201px;
+    padding: 12px 24px;
+    justify-content: center;
+    border-radius: 10px;
+}
+.section1-container .left-box .companies{float: inline-end;}
+.section1-container .left-box .companies .img-row1{margin: 10px 0px;}
+.section1-container .left-box .companies img{height: 20px; filter: grayscale(100%);}
+

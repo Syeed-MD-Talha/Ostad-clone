@@ -1,0 +1,92 @@
+
+.container{
+    height: 72px;
+    width: 100%;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    font-weight: 600;
+    font-family: Hind Siliguri,sans-serif;
+}
+button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 35px 5px 10px;
+    border-radius: 48px;
+    border: 1px solid #ebf0ea;;
+    background-color:#f9f9fa;
+}
+button img{
+    width: 28px !important;
+    height: 28px !important;
+    margin-right: 5px;
+}
+button span{font-weight: 400;color: #475467;}
+
+.container .inside-container{
+    /* background-color: rgba(135, 195, 222, 0.355); */
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+}
+.container .inside-container .left-element{
+    /* background-color: rgba(82, 161, 161, 0.363); */
+    display: flex;
+    
+}
+.container .inside-container .right-element{
+    /* width: auto; */
+    /* background-color: rgba(165, 62, 158, 0.363); */
+}
+.container .inside-container .left-element img{height:28px; width: 100%;}
+.container .inside-container .right-element img{height:20px; width: 20px;}
+
+.container .inside-container .left-element{
+    width: 100%;
+    display: grid;
+    align-items: center;
+    justify-content: start;
+    grid-template-columns: repeat(6,auto);
+    column-gap: 2%;
+}
+.container .inside-container .right-element
+{
+    width: 100%;
+    display: grid;
+    align-items: center;
+    justify-content: end;
+    grid-template-columns: repeat(3,auto);
+    column-gap: 2%;
+    /* display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%; */
+}
+.container .inside-container .right-element div{
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    display: grid;
+    grid-template-columns: repeat(2,auto);
+    column-gap: 5px;
+}
+.container .inside-container .right-element .all-course{
+    background-color: #eaecf0b5;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+.container .inside-container .right-element .login{
+    background-color:#ffcd33;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.download{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+

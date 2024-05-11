@@ -1,0 +1,46 @@
+
+  .container, button,.container .inside-container,
+  .container .inside-container .left-element,.download{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 14px;
+        font-family: Hind Siliguri,sans-serif;
+  }   
+.container{height: 72px;width: 100%;background-color: #ffffff;font-weight: 600;}
+
+
+/*  -------- search  button desgin-------------------*/
+button{padding: 5px 35px 5px 10px;border-radius: 48px;border: 1px solid #ebf0ea;background-color:#f9f9fa;}
+button img{width: 28px !important;height: 28px !important;margin-right: 5px;}
+button span{font-weight: 400;color: #475467;}
+/*  -------- search  button desgin-------------------*/
+
+
+.container .inside-container{justify-content: space-between;width: 70%;}
+.container .inside-container .left-element img{height:28px; width: 100%;}
+.container .inside-container .right-element img{height:20px; width: 20px;}
+
+
+.container .inside-container .left-element,
+.container .inside-container .right-element{
+    width: 100%;
+    display: grid;
+    align-items: center;
+    grid-template-columns: repeat(6,auto);
+    column-gap: 2%;
+}
+.container .inside-container .left-element{justify-content: start;}
+.container .inside-container .right-element{justify-content: end;}
+.container .inside-container .right-element div{
+    display: grid;
+    grid-template-columns: repeat(2,auto);
+    column-gap: 5px;
+}
+.container .inside-container .right-element .all-course,
+.container .inside-container .right-element .login{
+    background-color: #eaecf0b5;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+.container .inside-container .right-element .login{background-color:#ffcd33;}

@@ -1,0 +1,223 @@
+.section2 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.section2-container {
+    /* margin-top: 40px; */
+    width: 1120px;
+    height: 960px;
+    background-color: white;
+    border-radius: 15px;
+    border: 1px solid rgba(181, 178, 178, 0.147);
+    display: flex;
+    flex-direction: column;
+}
+
+.section2-container .title {
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    justify-content: center;
+    align-items: center;
+    font-size: 36px;
+    /* background-color: rgba(27, 27, 196, 0.205); */
+    column-gap: 1%;
+    font-weight: 700;
+    line-height: 130%;
+}
+
+.section2-container .sub-title .img-icon {
+    margin: 0px;
+    padding: 0px;
+    background-color: #f9f9fa;
+    height: 28px;
+    width: 28px;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+}
+
+.section2-container .sub-title {
+    background-color: #f9f9fa;
+    height: 54px;
+    width: 240px;
+    display: flex;
+    align-items: center;
+    border: 1px solid rgba(0, 0, 0, 0.166);
+    border-radius: 5px;
+    padding-left: 10px;
+    margin: 0px 10px;
+}
+
+.section2-container .sub-title img {
+    margin: 0px;
+    padding: 0px;
+    width: 16px;
+    height: 16px;
+    filter: grayscale();
+}
+
+.section2-container .subtitles {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    /* justify-content: space-evenly; */
+}
+
+
+/* -----------------------  Courses ------------------------*/
+
+.all-courses {
+    padding: 20px 20px;
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    row-gap: 14px;
+    column-gap: 12px;
+}
+
+.courses {
+    width: 261px;
+    height: 147px;
+    background-color: lightcoral;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+
+}
+
+.card1,
+.card2,
+.card3,
+.card4,
+.card5,
+.card6,
+.card7,
+.card8 {
+    background-image: url('../images/card1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.card2 {
+    background-image: url('../images/card2.jpg');
+}
+
+.card3 {
+    background-image: url('../images/card3.jpg');
+}
+
+.card4 {
+    background-image: url('../images/card4.jpg');
+}
+
+.card5 {
+    background-image: url('../images/card5.jpg');
+}
+
+.card6 {
+    background-image: url('../images/card6.jpg');
+}
+
+.card7 {
+    background-image: url('../images/card7.jpg');
+}
+
+.card8 {
+    background-image: url('../images/card8.jpg');
+}
+
+
+.info {
+    padding-top: 5px 0px;
+    background-color: #f9f9fa;
+    height: 43px;
+    font-size: 11px;
+    font-weight: 500;
+    font-family: Hind Siliguri, sans-serif;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.177);
+    border-right: 1px solid rgba(0, 0, 0, 0.117);
+    border-left: 1px solid rgba(0, 0, 0, 0.117);
+
+
+}
+
+.info img {
+    height: 12px;
+    width: 12px;
+}
+
+.info .box,.end-button{
+    margin-right: 5px;
+    margin-left: 5px;
+    padding: 5px;
+    background-color: #eaecf0;
+    display: flex;
+    align-items: center;
+    border-radius: 3px;
+}
+
+.all-courses .title {
+    padding-top: 10px;
+    display: grid;
+    justify-content: start;
+    align-items: start;
+
+    margin: 0px;
+    font-size: 20px !important;
+    line-height: 130% !important;
+    font-weight: 700 !important;
+    height: 94px;
+    border-right: 1px solid rgba(0, 0, 0, 0.117);
+    border-left: 1px solid rgba(0, 0, 0, 0.117);
+    padding-left: 12px;
+}
+
+.common-div{
+    background-color: #f9f9fa;
+    height: 64px;
+    border-right: 1px solid rgba(0, 0, 0, 0.117);
+    border-left: 1px solid rgba(0, 0, 0, 0.117);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.177);
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.details-button-bg{
+    font-size: 14px !important;
+  line-height: 1.25rem !important;
+  font-weight: 600 !important;
+
+    background-color: #eaecf0;
+    padding: 8px 25%;
+    border-radius: 5px;
+
+    display: grid;
+    grid-template-columns: auto auto;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+}
+.details-button-bg img{height: 20px;width: 20px;}
+.section2-container .end-button{
+    width: 375px;
+}
+.section2-container .end-button{
+    display: flex;
+    justify-content: center;
+    padding: 11px 0px;
+    margin-left: 33%;
+    border-radius: .5rem;
+
+}
